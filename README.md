@@ -74,4 +74,4 @@ Run each with `go run ./servers/server-1` (and `server-2`, `server-3`), then poi
 
 ## License
 
-No license has been chosen for this project yet.
+Scales was released under the Apache 2.0 license
