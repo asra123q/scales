@@ -38,6 +38,7 @@ func handleRoot(w http.ResponseWriter, r *http.Request) {
 	count := len(snippets)
 	snippetsMu.RUnlock()
 	fmt.Fprintf(w, "snippet store, %d snippet(s) on hand\n", count)
+	fmt.Fprintf(w, "Hello from port 8083")
 }
 
 func createSnippet(w http.ResponseWriter, r *http.Request) {
